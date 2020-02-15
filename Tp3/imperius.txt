@@ -1,0 +1,14 @@
+Caceres Fernando;27;M;2;5;203505;2
+Camejo Manuel;35;R;3;1;205006;2
+Caserta Camila;20;B;3;4;207010;2
+Diaz Gonzalo;44;M;1;5;205911;2
+Esquivel Matias;25;R;3;7;203312;2
+Faretta Yanina;32;M;1;1;206705;2
+Garcia Delfina;23;R;2;5;202806;2
+Guglielmana Guido;59;M;3;9;214011;2
+Inneo Sebastian;37;R;3;5;205712;2
+Massone Bernardo;55;M;1;2;203112;2
+Mendez Mariano;48;B;3;2;206810;2
+Riedel Nicolas;61;B;2;2;203407;2
+Talavera Charly;41;B;3;9;207708;2
+Zuleta Pablo;23;R;1;8;209901;2 

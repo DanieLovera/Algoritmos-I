@@ -1,0 +1,16 @@
+Albornoz Gonzalo;31;B;1;7;203501;1
+Besednjak Mario;25;M;1;3;204007;1
+Camejo Manuel;35;R;3;1;205006;1
+Caserta Camila;20;B;3;4;207010;1
+Castillo Stephanie;24;R;2;3;205812;1
+Faretta Yanina;32;M;1;1;206705;1
+Fraccaro Agustina;19;B;3;3;207001;1
+Gualdieri Sofia;33;B;2;1;209407;1
+Guglielmana Guido;59;M;3;9;214011;1
+Kvitkin Agustina;22;B;1;7;209710;1
+Mendez Mariano;48;B;3;2;206810;1
+Paz Jonathan;30;R;1;6;208803;1
+Rodriguez Tomas;25;B;3;7;209012;1
+Schmidt Agustina;20;R;2;4;207211;1
+Schejtman Ezequiel;27;M;1;9;207606;1
+Talavera Charly;41;B;3;9;209908;1 

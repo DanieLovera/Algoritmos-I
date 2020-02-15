@@ -1,0 +1,48 @@
+---------------------------------------------------------- LISTA DE COMANDOS DISPONIBLES ----------------------------------------------------------
+
+- Perdonables:
+
+	Este comando genera un archivo binario con los presos de azkaban que podrian alguna vez ser liberados.
+	El tercer argumento ingresado determina el nombre del archivo generado.
+	Si la cantidad de argumentos es diferente de 3 o el formato es invalido no se ejecutara el comando.
+
+	EJEMPLO DE EJECUCION:
+	./azkaban perdonables <nombre_archivo>
+
+- Liberar:
+
+	Este comando genera un archivo de texto con los presos de azkaban que pueden ser liberados si cumplen con las condiciones necesarias.
+	El tercer argumento determina el archivo de presos perdonables que se usara.
+	El cuarto argumento determina la fecha de liberacion de los presos con formato AAAAMM.
+	El quinto argumento determina la conducta necesaria para la liberacion. Conductas valida [B,R,M]
+	Si los presos cumplen su condena para la fecha de liberacion y tienen una conducta mejor o igual a la necesaria, seran ingresados al archivo.
+	El nombre del archivo generado sera liberados_AAAAMM.txt
+	Si la cantidad de argumentos es diferente de 5 o el formato es invalido no se ejecutara el comando.
+	IMPORTANTE: Si ya existe un archivo de presos liberado para esa fecha, no se generara uno nuevo.
+
+	EJEMPLO DE EJECUCION:
+	./azkaban liberar <archivo_perdonables> 203050 R
+
+- Actualizar:
+
+	Este comando actualizara los archivos de presos de azkaban posterior a su liberacion.liberados.
+	El tercer argumento determina la fecha del archivo de presos liberados a utilizar con formato AAAAMM.
+	Si la cantidad de argumentos es diferente de 3 o el formato es invalido no se ejecutara el comando.
+
+	EJEMPLO DE EJECUCION:
+	./azkaban actualizar 203050
+
+- Mostrar liberados:
+
+	Este comando mostrara en pantalla los presos que hayan sido liberados.
+	El tercer argumento determina la fecha del archivo de presos liberados a utilizar con formato AAAAMM.
+	Si la cantidad de argumentos es diferente de 3 o el formato es invalido no se ejecutara el comando.
+
+	EJEMPLO DE EJECUCION:
+	./azkaban mostrar_liberados 203050
+
+- Mostrar ayuda:
+	Este comando muestra la ayuda sobre el funcionamiento del programa.
+	
+	EJEMPLO DE EJECUCION:
+	./azkaban ayuda
